@@ -1,8 +1,4 @@
-provider "aws" {
-  region     = var.region
-  access_key = "AKIAYCCRRDAL4QVQSIUW"
-  secret_key = "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"
-}
+
 
 resource "aws_instance" "web" {
   ami           = var.ami-id
