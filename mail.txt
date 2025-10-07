@@ -1,0 +1,12 @@
+I wanted to update you that I’ve successfully installed the required CLI tools — Terraform, Helm, and kubectl — which will be used to deploy the AKS infrastructure.
+
+However, while running terraform init or terraform plan, the process is failing because Terraform is trying to download the AzureRM provider dependencies from the internet. It seems the Cloud PC’s network/firewall restrictions are blocking this download.
+
+Could you please advise how we can handle this?
+Possible options might be:
+
+Allowing Terraform to access the provider registry over the internet, or
+
+Hosting the provider binaries internally (e.g., in an approved internal registry or shared storage).
+
+Once this is resolved, I should be able to proceed with the Terraform deployment smoothly.
