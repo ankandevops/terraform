@@ -1,0 +1,20 @@
+Subject: AKS Creation – Status Update
+
+Hi Adam,
+
+I wanted to share the current status of the AKS creation activity, following up on yesterday’s progress.
+
+Yesterday, I had a call with Peter (which I had scheduled) to review the setup steps. During our discussion, Peter requested the SSH key pair, which I did not have access to. As per your suggestion, I reached out to Shiva, who confirmed that he only has the private key (already loaded into Azure) but not the public key.
+
+To proceed, I attempted to generate a new SSH key pair. However, I couldn’t upload the public key to GitHub since neither Shiva nor I have the service account password, and the team responsible for it was on leave. Later, Peter shared a key pair that I was able to use for the configuration.
+
+While running some required Python scripts, I noticed that Python was not installed on my Cloud PC. I have raised a service request to have it installed.
+
+Additionally, during the call with Peter, we had to modify several configuration values that were not documented on the Confluence page. Once the AKS setup stabilizes, I will update the documentation accordingly.
+
+I have another call scheduled with Peter tomorrow morning to continue with the next steps.
+
+Please let me know if you’d like me to summarize the configuration changes separately.
+
+Best regards,
+[Your Name]
