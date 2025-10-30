@@ -1,0 +1,5 @@
+As of yesterday, we were able to re-run the pipeline. However, we encountered additional issues — the service account currently doesn’t have access to the dependent repository.
+
+Peter has raised a request with the GitHub team, who own the repository, to provide the required access for the service account.
+
+Due to an ongoing global Azure issue, the team is currently occupied. Once the service account is authorized with the necessary permissions, we will be able to proceed with the pipeline execution.
