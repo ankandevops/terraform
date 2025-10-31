@@ -1,0 +1,5 @@
+The global Azure issue is still ongoing, so we are still waiting for the service account to be granted access to the required repositories.
+
+Peter has already raised a request for one of the repositories. However, since he could only raise it for a single repo, he has requested that I raise a separate access request for the other dependent repository.
+
+We’ll proceed with the pipeline execution once the necessary access is granted.
